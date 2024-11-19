@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="rFcaaIZD5_DY6oB-ytW5">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-1" value="使用者註冊" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="425" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-5" value="使用者填入資料" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-7" value="檢查輸入格式&lt;div&gt;是否正確&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-8" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1.023;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-7" target="KCVfrBEjZ5k7IFRmROUr-5">
+          <mxGeometry x="-0.0393" relative="1" as="geometry">
+            <mxPoint x="600" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="445" />
+              <mxPoint x="530" y="321" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-10" value="檢查Email&lt;div&gt;是否合法(不重複)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="539" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-11" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-10" target="KCVfrBEjZ5k7IFRmROUr-5">
+          <mxGeometry x="0.0116" relative="1" as="geometry">
+            <mxPoint x="503" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="584" />
+              <mxPoint x="340" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-12" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-10">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="440" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-13" value="註冊成功" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="KCVfrBEjZ5k7IFRmROUr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCVfrBEjZ5k7IFRmROUr-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="425" y="780" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
