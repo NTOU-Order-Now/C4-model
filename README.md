@@ -7,3 +7,7 @@
 ## Container Diagram
 
 ![](Container.png)
+
+## Component Diagram
+
+![](Component.png)
